@@ -1,0 +1,99 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProjectManager</name>
+    </assembly>
+    <members>
+        <member name="M:ProjectManager.Controllers.ProjectController.GetAllProjects">
+            <summary>
+            Получение информации обо всех проектах в коллекции
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProjectManager.Controllers.ProjectController.AddProject(ProjectManager.Models.Project)">
+            <summary>
+            Добавление нового проекта
+            </summary>
+            <param name="proj">Экземпляр добавляемого проекта</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProjectManager.Controllers.ProjectController.UpdateProject(ProjectManager.Models.Project)">
+            <summary>
+            Обновление существующего проекта
+            </summary>
+            <param name="proj">Экземпляр обновляемого проекта</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProjectManager.Controllers.ProjectController.RemoveProject(ProjectManager.Models.Project)">
+            <summary>
+            Удаление проекта из коллекции
+            </summary>
+            <param name="proj">Экземпляр удаляемого проекта</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProjectManager.Services.IProjectManagementServices.GetAllProjects">
+            <summary>
+            Получение всех проектов из хранилища
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProjectManager.Services.IProjectManagementServices.AddProject(System.String)">
+            <summary>
+            Добавление нового проекта в хранилище
+            </summary>
+            <param name="projName">Имя нового проекта</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProjectManager.Services.IProjectManagementServices.UpdateProject(ProjectManager.Models.Project)">
+            <summary>
+            Обновление содержащегося в коллекции проекта
+            </summary>
+            <param name="proj">Данные для обновления проекта</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProjectManager.Services.IProjectManagementServices.RemoveProject(System.Guid)">
+            <summary>
+            Удаление проекта
+            </summary>
+            <param name="projId">Идентификатор проекта</param>
+            <returns></returns>
+        </member>
+        <member name="F:ProjectManager.Services.ProjectManagementServices._projects">
+            <summary>
+            Хранилище данных проектов
+            </summary>
+        </member>
+        <member name="M:ProjectManager.Services.ProjectManagementServices.#ctor">
+            <summary>
+            Просто конструктор
+            </summary>
+        </member>
+        <member name="M:ProjectManager.Services.ProjectManagementServices.GetAllProjects">
+            <summary>
+            Получение всех проектов из хранилища
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProjectManager.Services.ProjectManagementServices.AddProject(System.String)">
+            <summary>
+            Добавление нового проекта в хранилище
+            </summary>
+            <param name="projName">Имя нового проекта</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProjectManager.Services.ProjectManagementServices.UpdateProject(ProjectManager.Models.Project)">
+            <summary>
+            Обновление содержащегося в коллекции проекта
+            </summary>
+            <param name="proj">Данные для обновления проекта</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProjectManager.Services.ProjectManagementServices.RemoveProject(System.Guid)">
+            <summary>
+            Удаление проекта
+            </summary>
+            <param name="projId">Идентификатор проекта</param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
